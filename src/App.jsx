@@ -1,15 +1,16 @@
-import Header from "./header";
-import Footer from "./footer";
+
+import Card from './Card.jsx' ;
+import './index.css'
 
 function App() {
   return (
     <>
-      <Header />
-      <main className="main-content">
-        <h1>Features</h1>
-      </main>
-      <Footer />
-    </>
+      <Card Name= "jack" Age="16" isEnrolled ={false}/>
+      <Card Name= "Buck" Age="22" isEnrolled ={true}/>
+      <Card Name= "Gina" Age="21" isEnrolled ={true}/>
+      <Card/>
+      
+      </>
   );
 }
 

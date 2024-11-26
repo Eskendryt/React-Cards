@@ -1,4 +1,4 @@
-import mypic from './assets/th.jpeg'
+import mypic from './Portrait_Placeholder.png'
 
 function Card(props){
 return(
@@ -6,7 +6,7 @@ return(
 
    <img src={mypic} alt="my image" />
    <h2>Name: {props.Name}</h2>
-   <p>Age; {props.Age}</p>
+   <p>Age: {props.Age}</p>
    <p>Enrolled: {props.isEnrolled ? "Yes": "NO" } </p>
    </div>
 );
