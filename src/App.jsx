@@ -9,6 +9,9 @@ function App() {
       <Card Name= "Buck" Age="22" isEnrolled ={true}/>
       <Card Name= "Gina" Age="21" isEnrolled ={true}/>
       <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
       
       </>
   );
