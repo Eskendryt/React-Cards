@@ -10,8 +10,7 @@ function App() {
       <Card Name= "Gina" Age="21" isEnrolled ={true}/>
       <Card/>
       <Card/>
-      <Card/>
-      <Card/>
+      
       
       </>
   );
